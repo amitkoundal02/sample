@@ -1,0 +1,13 @@
+ICT Linux Team will check server tcmpl003  console access and take output of below commans:
+ uptime , df -h , cat /etc/fstab, uname -a, ifconfig, fdisk -l,vgs,lvs
+"Please find the implementaion steps below:    
+1) We login into the server. 
+2) We will take backup of file /etc/sysctl.conf  by using below command :  cp /etc/sysctl.conf  /etc/sysctl.conf _date 
+3) echo ""kernel.sem=500 64000 64 256"" >> /etc/sysctl.conf 
+4) Then reload the file by using command sysctl -p 
+5) Verify the limit using command ipcs -ls.
+6) Login into ILO console.                                                      
+7) After login in console, we will take remote console and rebooted the server.Please find the command below: shutdown -ry 0"
+We will validated the server from OS level. Please find the command below:  uptime , df -h , cat /etc/fstab, uname -a, ifconfig ,ipcs -ls,ipcs -su                                                                     
+DC Team physically reboot the server.
+We will vlidated the server from OS level.Please find the command below:  uptime , df -h , cat /etc/fstab, uname -a, ifconfig  
