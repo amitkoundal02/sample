@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "project-development",
+  "name": "sample",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
