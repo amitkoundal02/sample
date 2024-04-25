@@ -1,9 +1,9 @@
 /**
  * @description       : 
- * @author            : Amit Singh
+ * @author            : Amit Koundal
  * @group             : 
  * @last modified on  : 09-29-2021
- * @last modified by  : Amit Singh
+ * @last modified by  : Amit Koundal
 **/
 public without sharing class ContactUsLWCService {
     
